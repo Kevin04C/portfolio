@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Journal APP",
+    "description": "Una APP de diario, para guardar todas las cosas que te pasan en el día a día o simplemente las cosas que quieras.",
+    "technologies": ["JS","REACT", "REDUX", "FIREBASE"],
+    "image": "/images/journalapp.png",
+    "project": "https://react-diario-app.netlify.app/",
+    "github": "https://github.com/Kevin04C/journal-app"
+  },
+  {
+    "name": "Planificador de gastos APP",
+    "description": "Una APP para llevar el control de todos tus gastos, muy útil cuando tenemos un presupuesto limitado.",
+    "technologies": ["JS", "REACT", "CSS"],
+    "image": "/images/appgastos.png",
+    "project": "https://control-gastos-react-kevin04c.netlify.app/",
+    "github": "https://github.com/Kevin04C/control-gastos-react"
+  },
+  {
+    "name": "Reproductor de Música JS",
+    "description": "Un reproductor de música, con un diseño muy simple y minimalista, que te permite avanzar, retroceder canciones, cambiar el volumen, entre otras muy cosas útiles.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "/images/reproductor-musica.png",
+    "project": "https://kevin-reproductor-musica.netlify.app/",
+    "github": "https://github.com/Kevin04C/reproductor-musica"
+  },
+  {
+    "name": "Clone de GOOGLE",
+    "description": "Un clone de la página de inicio de Google, con un el modo dark.",
+    "technologies": ["HTML", "CSS", "JS"],
+    "image": "/images/clone-google.png",
+    "project": "https://kevin04c.github.io/clone-google/",
+    "github": "https://github.com/Kevin04C/clone-google"
+  }
+]
