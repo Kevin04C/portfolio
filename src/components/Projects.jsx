@@ -9,7 +9,7 @@ export const Projects = () => {
         puedes ver el proyecto terminado y el código fuente en <span className="font-bold">GitHub</span>. 
       </p>
       
-      <div className='grid grid-cols-cards gap-8'>
+      <div className='grid grid-cols-cards gap-x-[2rem]'>
         <CardList />
       </div>
     </section>

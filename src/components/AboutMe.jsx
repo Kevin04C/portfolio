@@ -3,18 +3,18 @@ import KevinImage from "../assets/kevin.jpg";
 export const AboutMe = () => {
   return (
     <section
-      className="mb-48 flex flex-col-reverse md:flex-row md:items-center"
+      className="mb-48 flex flex-col-reverse md:flex-row md:items-center md:gap-10"
       id="sobremi"
     >
-      <picture>
+      <picture className="md:grow-0 md:basis-1/2">
         <img
           src={KevinImage}
           alt="kevin dev"
-          className="rounded-full w-3/4 md:w-2/4 mx-auto shadow-xl mt-5"
+          className="rounded-full max-w-xs mx-auto shadow-xl mt-5"
         />
       </picture>
 
-      <div>
+      <div className="md:grow md:basis-2/3">
         <h3 className="font-bold text-5xl text-slate-900 mb-10">Sobre Mi</h3>
         <p className="text-slate-600 text-xl md:text-2xl">
           ¡Hola! soy <span className="font-bold">Kevin Cespedes (2004)</span>,
