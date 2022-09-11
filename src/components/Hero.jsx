@@ -4,7 +4,7 @@ import { Nav } from "./Nav";
 
 export const Hero = () => {
   return (
-    <header className="container mx-auto h-screen">
+    <header className="h-screen">
       <Nav />
       <div className="sm:flex md:items:center mt-14">
         <div className="basis-2/4 flex flex-col justify-center">

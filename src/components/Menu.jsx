@@ -44,6 +44,11 @@ export const Menu = () => {
           PROYECTOS
         </a>
       </li>
+      <li className="hover:text-blue-600 text-2xl font-extrabold md:text-base md:font-semibold rounded-md p-2 transition- text-center md:text-left">
+        <a href="#contacto" onClick={handleClickLink}>
+          CONTACTO
+        </a>
+      </li>
     </ul>
   );
 };
