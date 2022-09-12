@@ -70,7 +70,7 @@ export const Contact = () => {
           ¡Déjame un mensaje!
         </h1>
         <p className="text-slate-600  text-xl md:text-2xl">
-          Sí te gustó lo que vistes o algo te pareció interesante, puedes
+          Si te gustó lo que vistes o algo te pareció interesante, puedes
           contactar conmigo en el siguiente formulario 😎💻.{" "}
         </p>
       </div>

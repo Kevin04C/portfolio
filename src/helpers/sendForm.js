@@ -9,7 +9,7 @@ export const sendForm = async ({name, email, message}) => {
     body: JSON.stringify({
       nombre: name,
       correo: email,
-      mesaje: message
+      mensaje: message
     }),
   })
   if(!res.ok) return {success: false, message: "Hubo un error al enviar el formulario"}

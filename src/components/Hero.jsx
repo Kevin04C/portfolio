@@ -4,14 +4,14 @@ import { Nav } from "./Nav";
 
 export const Hero = () => {
   return (
-    <header className="h-screen">
+    <header className="max-w-7xl mx-auto px-4 md:px-0 h-screen">
       <Nav />
-      <div className="sm:flex md:items:center mt-14">
+      <div className="lg:flex lg:items:center lg:gap-10 mt-8">
         <div className="basis-2/4 flex flex-col justify-center">
           <p className="mb-2 font-semibold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
             ¡Hola! yo soy
           </p>
-          <h2 className="text-slate-900 font-black text-6xl sm:text-6xl md:text-8xl mb-5">
+          <h2 className="text-slate-900 font-black text-7xl sm:text-9xl pb-5 mb-5 lg:text-9xl">
             Kevin <br />
             Céspedes
           </h2>
@@ -36,7 +36,7 @@ export const Hero = () => {
           <img
             src={ImageProgramming}
             alt="person programming"
-            className="sm:w-4/5 block mx-auto mt-10"
+            className="md:w-3/5 lg:w-full block mx-auto mt-10"
           />
         </div>
       </div>

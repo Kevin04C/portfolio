@@ -4,9 +4,12 @@ import { HambugerButton } from "./HambugerButton";
 import { Menu } from "./Menu";
 
 export const Nav = () => {
-  const { visibleNav, changeVisibleNav } = useContext(AppContext);
+  const { visibleNav, setVisibleNav } = useContext(AppContext);
 
-  const showNav = useMemo(() => (visibleNav ? "" : "hidden"), [visibleNav]);
+  const matches = useMemo(
+    () => matchMedia("(max-width: 768px)").matches,
+    [visibleNav]
+  );
 
   return (
     <nav>
