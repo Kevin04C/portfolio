@@ -36,7 +36,7 @@ export const Hero = () => {
           <img
             src={ImageProgramming}
             alt="person programming"
-            className="w-full block mx-auto mt-10"
+            className="w-80 md:w-full block mx-auto mt-10"
           />
         </div>
       </div>
