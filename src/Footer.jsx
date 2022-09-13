@@ -7,7 +7,7 @@ export const Footer = () => {
         <p className="text-xl font-extralight mb-5">Hecho con mucho 💟.</p>
         <ul className="flex gap-5 justify-center text-sm">
           <li className="p-2 hover:bg-slate-500 md:rounded transition-all text-slate-200">
-            <a href="https://www.instagram.com/zkevin.2004/" target="_blank">Instragram</a>
+            <a href="https://www.instagram.com/zkevin.2004/" target="_blank">Instagram</a>
           </li>
           <li className="p-2 hover:bg-slate-500 md:rounded transition-all text-slate-200">
             <a href="https://www.github.com/kevin04c" target="_blank">Github</a>

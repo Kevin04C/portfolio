@@ -22,7 +22,7 @@ export const AboutMe = () => {
           ¡Hola! soy <span className="font-bold">Kevin Cespedes (2004)</span>,
           actualmente estoy estudiando la carrera de Ing. Sistemas, pero me
           apasiona el desarrollo web, lo que más disfruto al momento de
-          programar es ver como mis ideas se convierten realiad, pasar del
+          programar es ver como mis ideas se convierten realidad, pasar del
           código a hacer grandes cosas es maravilloso, además disfruto tomar
           café mientras codeo 💻☕.
           <span className="block font-bold mt-4">
