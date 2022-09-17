@@ -16,6 +16,14 @@
     "github": "https://github.com/Kevin04C/control-gastos-react"
   },
   {
+    "name": "Pomodoro APP",
+    "description": "Una APP para llevar el control de tu tiempo, muy útil para estudiar o trabajar.",
+    "technologies": ["JS", "REACT", "CSS", "CONTEXT"],
+    "image": "/images/pomodoro-app.png",
+    "project": "https://pomodoro-app-kevin.netlify.app/",
+    "github": "https://github.com/Kevin04C/pomodoro-app"
+  },
+  {
     "name": "Reproductor de Música JS",
     "description": "Un reproductor de música, con un diseño muy simple y minimalista, que te permite avanzar, retroceder canciones, cambiar el volumen, entre otras muy cosas útiles.",
     "technologies": ["HTML", "CSS", "JS"],
