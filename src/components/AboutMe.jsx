@@ -10,7 +10,7 @@ export const AboutMe = () => {
         <img
           src={KevinImage}
           alt="kevin dev"
-          className="rounded-full max-w-xs mx-auto shadow-xl mt-5"
+          className="rounded-full max-w-[280px] sm:max-w-xs mx-auto shadow-xl mt-5"
         />
       </picture>
 

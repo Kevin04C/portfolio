@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { Spinner } from "./Spinner";
 import { Error } from "./Error";
 import { regExpForm } from "../helpers/regExpForm";
-import { useEffect } from "react";
 import { sendForm } from "../helpers/sendForm";
 import { Message } from "./Message";
 
@@ -13,23 +12,39 @@ export const Contact = () => {
     message: "",
   });
   const [alert, setAlert] = useState("");
-  const [isValidSendForm, setIsValidSendForm] = useState(false);
   const [isSendingForm, setIsSendingForm] = useState(false);
   const [messageSuccess, setMessageSuccess] = useState("");
 
-  const { name, email, messaje } = formState;
+  const { name, email, message } = formState;
 
   const formRef = useRef();
+
+  const getResponseSendForm = async () => {
+    try {
+      setIsSendingForm(true);
+      const res = await sendForm(formState);
+      if (!res.success) throw new Error(res);
+      setMessageSuccess(res.message);
+    } catch (err) {
+      setAlert(err.message);
+    } finally {
+      setIsSendingForm(false);
+      setInterval(() => {
+        setMessageSuccess("");
+        formRef.current.reset();
+      }, 5000);
+    }
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if (Object.values(formState).includes(""))
+    if ((!name.trim(), !email.trim(), !message.trim()))
       setAlert("Rellene todos los campos");
     else if (!regExpForm.email.test(email)) setAlert("Correo no válido");
     else {
       setAlert("");
-      setIsValidSendForm(true);
+      getResponseSendForm();
     }
   };
   const handleInputChange = ({ target }) => {
@@ -38,30 +53,6 @@ export const Contact = () => {
       [target.name]: target.value,
     });
   };
-
-  useEffect(() => {
-    const getResponseSendForm = async () => {
-      if (isValidSendForm) {
-        setIsSendingForm(true);
-        try {
-          const res = await sendForm(formState);
-          if (!res.success) throw new Error(res);
-
-          setMessageSuccess(res.message);
-        } catch (err) {
-          setAlert(err.message);
-          console.log(err);
-        } finally {
-          setIsSendingForm(false);
-          setInterval(() => {
-            setMessageSuccess("");
-            formRef.current.reset();
-          }, 3000);
-        }
-      }
-    };
-    getResponseSendForm();
-  }, [isValidSendForm]);
 
   return (
     <section id="contacto" className="my-24">
