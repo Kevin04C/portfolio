@@ -12,7 +12,7 @@ export const Nav = () => {
   );
 
   return (
-    <nav className="mb-8 md:mb-0">
+    <nav className="mb-8 md:-mb-16">
       <div className="mx-auto flex justify-between items-center py-3">
         <h1 className="text-xl">
           <span className="font-black text-blue-500">{"<"}</span>
