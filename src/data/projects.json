@@ -1,7 +1,7 @@
 [
   {
     "name": "Journal APP",
-    "description": "Una APP de diario, para guardar todas las cosas que te pasan en el día a día o simplemente las cosas que quieras.",
+    "description": "App de diario, para guardar todas las cosas que te pasan en el día a día o simplemente las cosas que quieras.",
     "technologies": ["JS","REACT", "REDUX", "FIREBASE"],
     "image": "/images/journalapp.png",
     "project": "https://react-diario-app.netlify.app/",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Pomodoro APP",
-    "description": "Una APP para llevar el control de tu tiempo, muy útil para estudiar o trabajar.",
+    "description": "App para aplicar la técnica pomodoro, muy útil para estudiar o trabajar.",
     "technologies": ["JS", "REACT", "CSS", "CONTEXT"],
     "image": "/images/pomodoro-app.png",
     "project": "https://pomodoro-app-kevin.netlify.app/",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Reproductor de Música JS",
-    "description": "Un reproductor de música, con un diseño muy simple y minimalista, que te permite avanzar, retroceder canciones, cambiar el volumen, entre otras muy cosas útiles.",
+    "description": "Reproductor de música minimalista, te permite avanzar, retroceder canciones, cambiar el volumen.",
     "technologies": ["HTML", "CSS", "JS"],
     "image": "/images/reproductor-musica.png",
     "project": "https://kevin-reproductor-musica.netlify.app/",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Clone de GOOGLE",
-    "description": "Un clone de la página de inicio de Google, con un el modo dark.",
+    "description": "Clone de la página de inicio de Google, con un el tema oscuro.",
     "technologies": ["HTML", "CSS", "JS"],
     "image": "/images/clone-google.png",
     "project": "https://kevin04c.github.io/clone-google/",
