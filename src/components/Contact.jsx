@@ -62,7 +62,7 @@ export const Contact = () => {
         </h1>
         <p className="text-slate-600  text-xl md:text-2xl">
           Si te gustó lo que vistes o algo te pareció interesante, puedes
-          contactar conmigo en el siguiente formulario 😎💻.{" "}
+          contactar conmigo a través del siguiente formulario 😎💻.{" "}
         </p>
       </div>
 
@@ -82,7 +82,7 @@ export const Contact = () => {
           <input
             type="text"
             placeholder="Ejemplo: Kevin"
-            className="w-full py-2 border-slate-400 border-b-2 outline-none focus:border-blue-500 transition-all"
+            className="w-full py-2 border-slate-400 border-b-2 outline-none focus:border-slate-700 transition-all"
             name="name"
             id="name"
             onChange={handleInputChange}
@@ -96,7 +96,7 @@ export const Contact = () => {
           <input
             type="text"
             placeholder="correo@correo.com"
-            className="w-full py-2 border-slate-400 border-b-2 outline-none focus:border-blue-500 transition-all"
+            className="w-full py-2 border-slate-400 border-b-2 outline-none focus:border-slate-700 transition-all"
             name="email"
             id="email"
             onChange={handleInputChange}
@@ -109,7 +109,7 @@ export const Contact = () => {
           </label>
           <textarea
             cols="30"
-            className="w-full py-2 border-slate-400 border-b-2 outline-none focus:border-blue-500 transition-all h-36 resize-none"
+            className="w-full py-2 border-slate-400 border-b-2 outline-none focus:border-slate-700 transition-all h-36 resize-none"
             placeholder="tu mensaje"
             name="message"
             onChange={handleInputChange}
@@ -122,7 +122,7 @@ export const Contact = () => {
         ) : (
           <input
             type="submit"
-            className="w-full bg-blue-500 rounded-md font-bold text-lg text-white py-2 cursor-pointer hover:bg-blue-600 transition-all"
+            className="w-full bg-slate-800 rounded-md font-bold text-lg text-white py-2 cursor-pointer hover:bg-slate-700 transition-all"
           />
         )}
       </form>
