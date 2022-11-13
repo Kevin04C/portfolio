@@ -16,11 +16,11 @@ export const AboutMe = () => {
 
       <div className="md:grow md:basis-2/3">
         <h3 className="font-extrabold text-5xl text-slate-900 mb-10">
-          Sobre Mi
+          Sobre mi
         </h3>
         <p className="text-slate-600 text-xl md:text-2xl">
-          ¡Hola! soy <span className="font-bold">Kevin Cespedes (2004)</span>,
-          actualmente estoy estudiando la carrera de Ing. Sistemas, pero me
+          ¡Hola! Soy <span className="font-bold">Kevin Céspedes</span>,
+          estudiante de la carrera de Ing. de Sistemas, me
           apasiona el desarrollo web, lo que más disfruto al momento de
           programar es ver como mis ideas se convierten realidad, pasar del
           código a hacer grandes cosas es maravilloso, además disfruto tomar
